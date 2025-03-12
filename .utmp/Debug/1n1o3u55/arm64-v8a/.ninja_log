@@ -1,0 +1,9 @@
+# ninja log v5
+23	1982	7634957242362860	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	caec9bf98d140fd9
+6	2012	7634957243761803	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	132a37c924d9a399
+11	2013	7634957243568205	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	274ec8ce540d3739
+29	2018	7634957244266251	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	c96effba2923700a
+36	2020	7634957242971204	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	40a8d57e44c1c2e
+17	2029	7634957242763458	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	10bad9fa73f0e6d
+1	2085	7634957245021121	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1e3df992fb73cd8c
+2086	2326	7634957247171357	D:/AR-Drone-Simulator/AR drone simulator/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1n1o3u55/obj/arm64-v8a/libgame.so	2dc828c328bd276
