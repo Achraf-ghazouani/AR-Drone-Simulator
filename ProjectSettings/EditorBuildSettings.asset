@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/simulation.unity
-    guid: add46af7f9c5e6340962ba281510604f
+    path: Assets/Scenes/Plane tracking.unity
+    guid: 159aab0063a08e64eb7d57b5b01ac890
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
