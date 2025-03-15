@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: trakedImage
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5137871296080323766
+  m_GuidHigh: 622039137902073986
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5423883667639399031
+      m_GuidHigh: 2087132087009095065
+    m_SerializedTextureGuid:
+      m_GuidLow: 9436217524549113204
+      m_GuidHigh: 7522136839784402219
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Bild13
+    m_Texture: {fileID: 0}

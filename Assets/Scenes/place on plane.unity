@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72e96d26c0fc6994d87847296d391255, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToPlace: {fileID: 2055518174583600879, guid: 1d4189d0d0fc589439eb835507d4990f,
+  objectToPlace: {fileID: 2055518174583600879, guid: f27d7bf1544e6054087ca88c9449fe76,
     type: 3}
   placementIndicator: {fileID: 1114040580}
 --- !u!1 &388525029
