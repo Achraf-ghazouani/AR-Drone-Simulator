@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class sceneManager : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public GameObject Panel_selection;
+    public GameObject Panel_intro;
     void Start()
     {
         
@@ -35,5 +38,25 @@ public class sceneManager : MonoBehaviour
       public void LoadSceneRack()
     {
         SceneManager.LoadScene(3);
+    }
+    public void quit()
+    {
+        Application.Quit();
+    }
+    public void languageSelection()
+    {
+        //open scene language selection
+
+    }
+
+    public void startscene()
+    {
+        Panel_intro.SetActive(false);
+        Panel_selection.SetActive(true);
+    }
+    public void back()
+    {
+        Panel_intro.SetActive(true);
+        Panel_selection.SetActive(false);
     }
 }
