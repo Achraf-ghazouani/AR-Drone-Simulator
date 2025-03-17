@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3008895465a1d7e409744b667d9372e7
+timeCreated: 1446438083
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 49186
+  packageName: UJoystick
+  packageVersion: 1.0.1
+  assetPath: Assets/UJoystick/Example/Scene/UJoystick.unity
+  uploadId: 196225

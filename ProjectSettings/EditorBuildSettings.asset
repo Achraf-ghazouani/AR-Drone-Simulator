@@ -5,15 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/main menue.unity
     guid: 44851978960ccaf4baf50bff7b2cd27d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/place on plane.unity
     guid: e858baa6c52074846b2b3d891d2d52c3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/place on image.unity
     guid: 6adc26d7495823847aa251078775bdcd
+  - enabled: 0
+    path: Assets/Scenes/test simulation.unity
+    guid: e9c62017cdce2564d84a073b9c8c3cc8
+  - enabled: 1
+    path: Assets/Scenes/Simulation.unity
+    guid: a9f992da1842a3449901913cc8c63a2e
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
