@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro; // Import TextMeshPro namespace
 using UnityEngine.UI; // Import UI namespace for Button
+using System; // Import System namespace for DateTime
 
 public class controlleDrone : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class controlleDrone : MonoBehaviour
     public TMP_InputField maxSpeedInputField; // Input field for max speed
     public Button startButton; // Reference to the Start button
     public Button closeButton; // Reference to the Close button
+    public TextMeshProUGUI clockText; // Reference to TMP UI element for displaying the clock
 
     private Rigidbody rb;
     private bool isControllable = false; // Tracks if the drone can be controlled
@@ -30,6 +32,11 @@ public class controlleDrone : MonoBehaviour
 
         // Assign input field listener
         maxSpeedInputField.onEndEdit.AddListener(OnMaxSpeedEntered);
+    }
+
+    void Update()
+    {
+        UpdateClockUI(); // Update the clock every frame
     }
 
     void FixedUpdate()
@@ -67,7 +74,19 @@ public class controlleDrone : MonoBehaviour
         float speed = rb.velocity.magnitude;
 
         // Update the TMP text with the speed value
-        speedText.text = $"Speed: {speed:F2} Km/H";
+        speedText.text = $"{speed:F2} Km/H";
+    }
+
+    void UpdateClockUI()
+    {
+        // Get the current time
+        DateTime now = DateTime.Now;
+
+        // Format the time as HH:mm:ss
+        string timeString = now.ToString("HH:mm:ss");
+
+        // Update the TMP text with the current time
+        clockText.text = $"Time: {timeString}";
     }
 
     // Method to handle the Start button press
