@@ -5,25 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Starting Menu.unity
     guid: 44851978960ccaf4baf50bff7b2cd27d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Menu.unity
     guid: 6be1615f079b2714791e93055467fc92
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/place on plane.unity
     guid: e858baa6c52074846b2b3d891d2d52c3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/place on image.unity
     guid: 6adc26d7495823847aa251078775bdcd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Language Testing.unity
     guid: 767b8e7f8413cc9439e7de1647d6d58b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Quiz.unity
     guid: 22816acf8c2deb643a41cafbf5c29bdd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/test simulation.unity
     guid: e9c62017cdce2564d84a073b9c8c3cc8
   - enabled: 1
