@@ -527,7 +527,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4708462312181286913}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8025675694511918654}
+        m_TargetAssemblyTypeName: ExplodeAnimation, Assembly-CSharp
+        m_MethodName: ToggleAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2055518174583600879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,8 +1693,18 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6250019821507685645, guid: 1cc5490d6796ed24a8ede096621a9112,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8025675694511918654}
   m_SourcePrefab: {fileID: 100100000, guid: 1cc5490d6796ed24a8ede096621a9112, type: 3}
+--- !u!4 &2136569645068552872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3631876454239344506, guid: 1cc5490d6796ed24a8ede096621a9112,
+    type: 3}
+  m_PrefabInstance: {fileID: 3441201607360585170}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2782329385801624672 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 674778484789031346, guid: 1cc5490d6796ed24a8ede096621a9112,
@@ -1692,6 +1714,12 @@ Transform:
 --- !u!4 &3822272198234849111 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1930613711317803653, guid: 1cc5490d6796ed24a8ede096621a9112,
+    type: 3}
+  m_PrefabInstance: {fileID: 3441201607360585170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5152546530617861363 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7512038692829870369, guid: 1cc5490d6796ed24a8ede096621a9112,
     type: 3}
   m_PrefabInstance: {fileID: 3441201607360585170}
   m_PrefabAsset: {fileID: 0}
@@ -1707,9 +1735,56 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3441201607360585170}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &8051407593951351123 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4647083890192764033, guid: 1cc5490d6796ed24a8ede096621a9112,
+    type: 3}
+  m_PrefabInstance: {fileID: 3441201607360585170}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8424803947859625197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6569467819912616255, guid: 1cc5490d6796ed24a8ede096621a9112,
     type: 3}
   m_PrefabInstance: {fileID: 3441201607360585170}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8754185449161273567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6250019821507685645, guid: 1cc5490d6796ed24a8ede096621a9112,
+    type: 3}
+  m_PrefabInstance: {fileID: 3441201607360585170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8025675694511918654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8754185449161273567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a96275aec7f88f4c8e517d3146a1ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explodableParts:
+  - part: {fileID: 5152546530617861363}
+    customDirection: {x: 0, y: 1.5, z: 0}
+    customDistance: 3
+  - part: {fileID: 2136569645068552872}
+    customDirection: {x: 0, y: 1.5, z: 0}
+    customDistance: 3
+  - part: {fileID: 8051407593951351123}
+    customDirection: {x: 0, y: 1.5, z: 0}
+    customDistance: 3
+  - part: {fileID: 5353231303170224589}
+    customDirection: {x: 0, y: 1.5, z: 0}
+    customDistance: 3
+  - part: {fileID: 8424803947859625197}
+    customDirection: {x: 0, y: 105, z: 0}
+    customDistance: 3
+  - part: {fileID: 5169387032698391130}
+    customDirection: {x: 0, y: 1.5, z: 0}
+    customDistance: 3
+  - part: {fileID: 3822272198234849111}
+    customDirection: {x: 0, y: 1.5, z: 0}
+    customDistance: 3
+  explosionSpeed: 3
