@@ -8,15 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Starting Menu.unity
     guid: 44851978960ccaf4baf50bff7b2cd27d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 6be1615f079b2714791e93055467fc92
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/place on plane.unity
     guid: e858baa6c52074846b2b3d891d2d52c3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/place on image.unity
     guid: 6adc26d7495823847aa251078775bdcd
+  - enabled: 1
+    path: Assets/Scenes/simulation.unity
+    guid: a9f992da1842a3449901913cc8c63a2e
   - enabled: 0
     path: Assets/Scenes/Language Testing.unity
     guid: 767b8e7f8413cc9439e7de1647d6d58b
@@ -26,9 +29,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/test simulation.unity
     guid: e9c62017cdce2564d84a073b9c8c3cc8
-  - enabled: 1
-    path: Assets/Scenes/simulation.unity
-    guid: a9f992da1842a3449901913cc8c63a2e
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
