@@ -1,17 +1,17 @@
 # ninja log v5
-15	1191	7655509017587912	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	550d2085b4f96c1a
-6	1300	7655509018711917	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4b69d3e663fad2cf
-20	1221	7655509017895812	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	4f985e2d557ce916
-12	1374	7655509019470266	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	71b9aa3719e1e541
-24	1302	7655509018747368	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9f980f81b92507ea
-1599	2147	7655509026787175	D:/AR-Drone-Project github/AR-Drone-Simulator/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3f386l5c/obj/arm64-v8a/libgame.so	40fdb8c9991abf7f
-8	1526	7655509020972391	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	30108d11d329480e
-2	1598	7655509021708056	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9d26daae49c7e119
 23	2611	7676643161837506	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	550d2085b4f96c1a
-39	2659	7676643162567812	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	4f985e2d557ce916
-30	2763	7676643163639996	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9f980f81b92507ea
 4	2815	7676643164150737	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4b69d3e663fad2cf
 19	2932	7676643165348406	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	71b9aa3719e1e541
+39	2659	7676643162567812	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	4f985e2d557ce916
+3201	6950	7676643204691841	D:/AR-Drone-Project github/AR-Drone-Simulator/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3f386l5c/obj/arm64-v8a/libgame.so	40fdb8c9991abf7f
+30	2763	7676643163639996	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9f980f81b92507ea
 15	3085	7676643166886803	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	30108d11d329480e
 11	3201	7676643168058643	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9d26daae49c7e119
-3201	6950	7676643204691841	D:/AR-Drone-Project github/AR-Drone-Simulator/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3f386l5c/obj/arm64-v8a/libgame.so	40fdb8c9991abf7f
+30	2099	7678362665775517	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	550d2085b4f96c1a
+25	2160	7678362666263803	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	4f985e2d557ce916
+3	2244	7678362667166807	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4b69d3e663fad2cf
+20	2256	7678362667362298	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9f980f81b92507ea
+16	2519	7678362669732247	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	71b9aa3719e1e541
+12	2538	7678362670231745	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	30108d11d329480e
+8	2586	7678362670607645	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9d26daae49c7e119
+2587	3899	7678362682753217	D:/AR-Drone-Project github/AR-Drone-Simulator/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3f386l5c/obj/arm64-v8a/libgame.so	40fdb8c9991abf7f

@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class managMaterial : MonoBehaviour
+public class managPopUp : MonoBehaviour
 {
     public TextMeshPro popupText; // Reference to the 3D TextMeshPro for the popup
     public string partName; // Name of the part to display in the popup
