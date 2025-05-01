@@ -296,7 +296,7 @@ public class QuizManager : MonoBehaviour
 
     void EndQuiz()
     {
-        questionText.text = "Quiz completed! Final score: " + currentScore;
+        questionText.text = "Quiz completed! \nFinal score: " + currentScore;
         foreach (Button button in answerButtons)
         {
             button.gameObject.SetActive(false);
